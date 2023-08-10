@@ -137,6 +137,8 @@ const BasicCalendar = () => {
     setEventInput("");
   };
 
+  console.log(events)
+
   return (
     <div className="my-calendar">
       <DnDCalendar

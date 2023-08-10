@@ -1,6 +1,7 @@
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Modal from "react-bootstrap/Modal";
+import { FaTrashAlt } from 'react-icons/fa';
 
 function MyModal({
   modalStatus,
@@ -92,7 +93,7 @@ function MyModal({
               onClick={handleDelete}
               style={{ boxShadow: "none" }}
             >
-              <i className="fi fi-rr-trash"></i>
+              <FaTrashAlt/>
             </Button>
           )}
 
